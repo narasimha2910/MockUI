@@ -17,7 +17,7 @@ const TextScroller = ({ text }) => {
   return (
     <div
       key={key}
-      className="text-8xl h-full overflow-visible text-[#1919FF] mt-10 mb-10"
+      className="text-8xl h-full overflow-visible text-[#1919FF] mt-10 mb-10 xl:text-6xl lg:text-5xl sm:text-3xl"
     >
       <animated.div style={scrolling}>
         <h1>{text}</h1>
