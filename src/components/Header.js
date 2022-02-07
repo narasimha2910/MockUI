@@ -11,7 +11,7 @@ const Header = () => {
   };
   return (
     <>
-      <div className="bg-white h-20 flex justify-between text-2xl px-8 py-5 shadow-lg ">
+      <div className="bg-white h-20 flex justify-between text-2xl px-8 py-5 shadow-lg w-screen overflow-visible">
         <div>MetaStart</div>
         <div className="flex justify-around lg:pl-20 lg:w-5/6 w-1/2 md:hidden">
           <div className="hover:underline hover:cursor-pointer">Explore</div>
